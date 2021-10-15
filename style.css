@@ -46,11 +46,8 @@ img {
     width: 128px;
 }
 
-p {
+main p {
+    display: inline-block;
     font-size: 20px;
-}
-
-footer {
-    font-size: 12px;
-    text-align: center;
+    margin: 10px 5px;
 }
