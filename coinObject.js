@@ -21,13 +21,8 @@ const coin = {
 
     toHTML: function () {
         const image = document.createElement("img");
-
-        if (this.state === 0) {
-            image.src = "./images/moeda-cara.png"; image.alt = "Heads";
-        } else {
-            image.src = "./images/moeda-coroa.png";
-            image.alt = "Tails";
-        }
+        image.src = `./images/${this.toString()}.png`;
+        image.alt = `${this.toString()}`;
         return image;
     },
 };
