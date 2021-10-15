@@ -81,11 +81,11 @@ function displayHeader() {
     const btnReset = document.createElement("button");
 
     h1.textContent = "Heads/Tails";
-    h2.textContent = "Select a option:";
-    btnOneFlip.textContent = "Flip a coin (text)";
-    btnOneImage.textContent = "Flip a coin (image)";
-    btn20Flips.textContent = "Flip 20 coins (text)";
-    btn20Images.textContent = "Flip 20 coins (image)";
+    h2.textContent = "Select a flip option:";
+    btnOneFlip.textContent = "1 coin (text)";
+    btnOneImage.textContent = "1 coin (image)";
+    btn20Flips.textContent = "20 coins (text)";
+    btn20Images.textContent = "20 coins (image)";
     btnReset.textContent = "Reset";
 
     btnOneFlip.addEventListener("click", displayOneFlip);

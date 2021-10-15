@@ -1,0 +1,56 @@
+:root {
+    --font1: 'Coiny', cursive;
+    --font2: 'Yellowtail', cursive;
+    --red: #f44336;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: var(--font1);
+}
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: var(--font2);
+    justify-content: center;
+}
+
+h1, h2 {
+    flex-basis: 100%;
+}
+
+button {
+    background-color: #fff;
+    border: none;
+    border: 2px solid var(--red);
+    color: var(--red);
+    cursor: pointer;
+    display: inline-block;
+    font-family: var(--font1);
+    font-size: 16px;
+    margin: 4px 2px;
+    padding: 8px 4px;
+    text-align: center;
+    text-decoration: none;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: var(--red);
+    color: #fff;
+}
+
+img {
+    width: 128px;
+}
+
+p {
+    font-size: 20px;
+}
+
+footer {
+    font-size: 12px;
+    text-align: center;
+}
