@@ -53,3 +53,17 @@ function display20Images() {
     }
     return results;
 }
+
+function displayOneFlip() {
+    let result = coin.flip();
+    const text = document.createElement("p");
+    text.innerText = coin.toString();
+    document.body.appendChild(text);
+    return result;
+}
+
+function displayOneImage() {
+    let result = coin.flip();
+    document.body.appendChild(coin.toHTML());
+    return result;
+}
